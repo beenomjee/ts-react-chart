@@ -1,0 +1,35 @@
+.container {
+  width: 100%;
+  min-height: 100%;
+  padding: 3rem;
+  overflow-x: auto;
+}
+
+.container > table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 2rem;
+}
+
+.container > table > thead > tr > th {
+  font-size: 1.7rem;
+  color: #6f6f6f;
+  white-space: nowrap;
+  width: 33.3%;
+  padding: 0 1rem 4rem;
+}
+
+@media screen and (max-width: 768px) {
+  .container > table > thead > tr > th {
+    padding: 0 1rem 2rem;
+  }
+}
+
+.container > table > tbody > tr > td {
+  font-size: 1.7rem;
+  color: #949494;
+  text-align: center;
+  letter-spacing: 0.05rem;
+  white-space: nowrap;
+  padding: 0 1rem 2rem;
+}
